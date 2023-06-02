@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.1:3307/study_site1?zeroDateTimeBehavior=convertToNull
+    username: study
+    password: qwer1234
+
+jwt:
+  header: Authentication
+  secret: yVO4lXgzEBrRK5p+p4EqfyXO7SwUamamIXExzSb1G5q4Xd+5q7kdRHPLLwbXnJ0dQJlcBcE9UGRHZwpkT2v9iTPLXUWw0TU1iDiOBXjDjegzqGTvsFVfjGj8enSZdqDzqJjOV4EV5YeUgcP5hLWp1GUH4MRnleV6OratHBPaUPgxXib0SI79HYnrp/IrCfN9A6vf/bcwT2d9+1oi8Ar0qmfBUqQzFgroUBrmYA==keitian@
+
+
